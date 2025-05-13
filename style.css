@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    background-image: url(sunny_sky.jpg);
+}   
+
+/* body{
+    background-image: url(rainy-sky-background.jpg);
+} */
+
+h2{
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+    min-height: 10vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh;
+}
+button{
+    height: 6.5vh;
+    width: 20%;
+    cursor: pointer;
+    border-radius: 2vh;
+    border: none
+}
+select{
+    height: 6vh;
+    width: 60%;
+    margin: 1vh;
+    border-radius: 2vh;
+    border: none;
+    padding-left: 2vh;
+    font-size: 3vh;
+    cursor: pointer;
+}
+.city{
+    height: 10vh;
+    width: 17vh;
+    text-align: center;
+    margin: 1vh;
+    padding-right: 10vh;
+    font-size: 6vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #E8DB7D;
+    text-shadow: 1vh 1vh #606D5D;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+}
+.temp,.temp2{
+    width: 10vh;
+    padding: 2vh;
+    font-size: 8vh;
+    font-family: fantasy;
+    color: #FF101F;
+    text-shadow: .7vh .7vh #FAB3A9;
+}
+.mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    gap: 4vh;
+}
+
+.humidity,.msg,.max_min,.wind_speed,.pressure{
+    height: 10vh;
+    width: 10vh;
+    background-color:#b0c4b1;
+    padding: 2vh;
+    margin: 1vh;
+    border-radius: 2vh;
+
+}
+.add_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    height: 30vh;
+}
